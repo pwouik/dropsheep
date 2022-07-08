@@ -1,3 +1,10 @@
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+product:
+    path: /product
+    controller: App\Controller\AdminController::createProduct
+
 controllers:
     resource: ../src/Controller/
     type: annotation
